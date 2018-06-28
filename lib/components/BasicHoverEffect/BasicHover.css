@@ -1,0 +1,9 @@
+.basic-hover-effect-container {
+    display: inline-flex;
+    transition: all .2s ease-in;
+}
+
+.basic-hover-effect-container:hover {
+    box-shadow: 0 1px 4px 1px rgba(0, 0, 0, .2);
+    transition: all .2s ease-out;
+}
